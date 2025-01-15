@@ -129,14 +129,14 @@ function draw() {
   ctx.fillRect(0, 0, 20, 500);
   ctx.fillRect(400, 0, -20, 500);
 
-  // lifty -= 0.5;
-  // if (lifty < -500) {
-  //   lifty = 150;
-  // }
+   lifty -= 0.5;
+   if (lifty < -500) {
+     lifty = 150;
+   }
 
-  pshiftbuild += 0.1;
-  pshiftdecor += 0.5;
-  if (pshiftdecor < -400) {
-  }
+  //pshiftbuild += 0.1;
+  //pshiftdecor += 0.5;
+  //if (pshiftdecor < -400) {
+  //}
   requestAnimationFrame(draw);
 }
